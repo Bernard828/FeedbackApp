@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hospitality Feedback Hub</title>
+        <link rel="styleshet" href="style.css">
+    </head>
+    <body>
+        <h1>Hospitality Feedback Hub</h1>
+
+        <form id="feedbackForm">
+            <input type="text" id="guestName" placeholder="Your name" required>
+
+            <select id="role">
+                <option value="Waiter">Waiter</option>
+                <option value="Concierge">Concierge</option>
+                <option value="Barista">Barista</option>
+            </select>
+
+            <textarea id="message" placeholder="Your feedback..." required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <h2>All Feedback</h2>
+        <div id="feedbackList"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
