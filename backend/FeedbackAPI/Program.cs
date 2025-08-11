@@ -1,4 +1,5 @@
 using FeedbackAPI.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -18,6 +19,8 @@ builder.Services.AddCors(options =>
 builder.Services.AddDbContext<FeedbackContext>(options =>
 options.UseSqlite("Data Source=Feedback.db"));
 
+builder.Services.AddDbContext<UserContext>(options =>
+options.UseSqlite("Data Source=UserAuth.db"));
 
 builder.Services.AddControllers();
 
