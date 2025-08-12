@@ -1,5 +1,4 @@
 using FeedbackAPI.Data;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -24,7 +23,10 @@ options.UseSqlite("Data Source=UserAuth.db"));
 
 builder.Services.AddControllers();
 
+
 var app = builder.Build();
+
+
 
 app.UseCors("AllowFrontend");
 
