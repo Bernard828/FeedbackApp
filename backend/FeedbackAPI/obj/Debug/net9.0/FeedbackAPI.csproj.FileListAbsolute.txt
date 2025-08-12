@@ -479,3 +479,5 @@ C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\obj\Debug\net9.0\refi
 C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\obj\Debug\net9.0\FeedbackAPI.pdb
 C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\obj\Debug\net9.0\FeedbackAPI.genruntimeconfig.cache
 C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\obj\Debug\net9.0\ref\FeedbackAPI.dll
+C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\TINK\source\repos\FeedbackApp\backend\FeedbackAPI\obj\Debug\net9.0\FeedbackAPI.sourcelink.json
